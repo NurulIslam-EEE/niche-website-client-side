@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  object-fit: contain;
+}
+
+.banner {
+  background: url("../../../images/se-image-d329c570ea6f5e77810bc0318eb4b788.webp");
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  background-position: center;
+  background-size: cover;
+}
+.navbar button {
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: 3px solid #deb624;
+  background: transparent;
+  color: #deb624;
+  font-weight: 700;
+}
+.navbar button:hover {
+  border: 3px solid #deb624;
+  background: #deb624;
+  color: #02092b;
+}
+.service-btn {
+  border-radius: 20px;
+  padding: 5px 30px;
+  border: 2px solid #deb624;
+  background: transparent;
+  color: #deb624;
+  font-weight: 700;
+}
+.service-btn:hover {
+  border: 2px solid #02092b;
+  background: #02092b;
+  color: #deb624;
+}
+.more-btn {
+  width: 300px;
+  border: 2px solid #deb624;
+  background: transparent;
+  margin: 10px auto;
+  color: #deb624;
+  padding: 5px;
+  font-weight: 700;
+}
+.more-btn:hover {
+  border: 2px solid #02092b;
+  background: #02092b;
+  color: #deb624;
+}
+.service-card img {
+  width: 70%;
+  padding: 20px;
+}
+.service-card h3,
+.service-card p {
+  padding: 20px;
+}
+.navigation-item a:hover {
+  color: #deb624;
+}

@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.dashboard-menu {
+  height: 100vh;
+}
+.dashboard-logo {
+  color: #deb624;
+  text-decoration: none;
+}
+.dashboard-menu ul li {
+  list-style: none;
+  margin: 15px 0;
+}
+.dashboard-menu a {
+  text-decoration: none;
+  color: #deb624;
+  font-weight: 500;
+  font-size: 18px;
+}
+.dashboard-menu a:hover {
+  color: white;
+}
+.dashboard-menu button {
+  padding: 5px 35px;
+  border-radius: 30px;
+  border: 2px solid #deb624;
+  background: transparent;
+  color: #deb624;
+}
+.dashboard-menu button:hover {
+  background: #deb624;
+  color: #02092b;
+}
+.dashboard {
+  background: #02092b;
+}
+.manage-btn {
+  padding: 5px 22px;
+  border-radius: 30px;
+  border: 3px solid #deb624;
+  background: #deb624;
+  color: #02092b;
+  font-weight: 600;
+}
+.manage-btn:hover {
+  border: 3px solid #02092b;
+  background: transparent;
+  color: #02092b;
+}
+.review input,
+.review textarea,
+.review button {
+  width: 80%;
+}
+.review-btn {
+  padding: 5px 35px;
+  border: 2px solid #deb624;
+  background: transparent;
+  color: #deb624;
+  font-weight: 600;
+}
+.review-btn:hover {
+  border: 2px solid #02092b;
+  background: transparent;
+  color: #02092b;
+}
+.add-product input,
+.add-product button {
+  width: 80%;
+}
+.add-product input {
+  border: 0;
+  border-bottom: 2px solid black;
+}
+.make-admin input,
+.make-admin button {
+  width: 80%;
+}

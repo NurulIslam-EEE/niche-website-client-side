@@ -1,0 +1,13 @@
+.review-card {
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+  background: white;
+}
+.review-card img {
+  margin-top: -50px;
+  border: 12px solid white;
+}
+.review {
+  background: whitesmoke;
+}

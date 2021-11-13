@@ -1,0 +1,147 @@
+[
+    {
+        "id":1,
+        "name":"BMW 520I",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/618a446030999.jpg&w=1000&h=auto",
+        "description":"The BMW 520i is one of the most desirable and affluent cars that has ever been built in Germany.The BMW 5 series remains a leader among midsize luxury sedans as a fantastic all round performer. An admirable blend of comfort, craftsmanship and performance, has set this midsize BMW apart from the middle-of-the-road cars in its market segment.This 520i is finished off beautifully with a Black exterior and luxurious Beige leather interior, turning heads in every corner of the UAE.",
+        "model":"2020",
+        "price":"174,900",
+        "ins":"AED 3,425/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 09/08/2025 or 200,000 Kms"
+        
+        
+    },
+    {
+        "id":2,
+        "name":"BMW M4",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/6187e9aaa42d3.jpg&w=1000&h=auto",
+        "description":"The BMW M4 is much more than a perfectly attuned mix of high-performance technologies with 431 bhp M power. It is the embodiment of the experience and the craftsmanship of BMW M engineers.This BMW lives up to its brand's long-standing reputation for making supremely capable of driving cars. This M4 has a refined balance or practicality and performing which will leave your guests begging you for a ride home.Meticulously looked after and maintained, this car is in fantastic condition, with orange exterior and luxurious black leather interior, it's sure to turn heads wherever you go.",
+        "model":"2018",
+        "price":"249,900",
+        "ins":"AED 4,893/Month. 0% Downpayment Through Bank Finance for 5 Years",
+        "w":"Until 09/08/2025 or 200,000 Kms"
+        
+        
+    },
+    {
+        "id":3,
+        "name":"MERCEDES-BENZ GLS 500",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/618659878d1ba.jpg&w=1000&h=auto",
+        "description":"The Mercedes GLS 500 is without question the best and most luxurious large SUV available in today's market. Its impeccable German design and spacious layout strikes a fine balance of refinement and pragmatism.The GLS 500 comes with a 4.6-litre turbocharged V8 engine, mated to a 9-speed automatic transmission. Equipped with the third-row individual seats, the GLS-Class is a full-size seven-seater.This GLS500 is finished off beautifully with a White exterior and luxury Brown interior which is an excellent find and will be sure to bring joy to the next lucky owner!",
+        "model":"2016",
+        "price":"199,900",
+        "ins":"AED 3,915/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 01/06/2022 or 105,000 Kms"
+        
+        
+    },
+    {
+        "id":4,
+        "name":"MASERATI QUATTROPORTE",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/6183c1b5193f7.jpg&w=1000&h=auto",
+        "description":"The Maserati Quattroporte is as stylish and affluent now as when the first one graced the production line in 1963.The Quattroporte exhibits a refined coordination of class and luxury, its performance is as good as one can expect on any high class vehicle available in today's market.Meticulously looked after and maintained, this car is in fantastic condition, with white exterior and luxurious brown inside, it's sure to turn heads wherever you go.",
+        "model":"2019",
+        "price":"269,900",
+        "ins":"AED 5,286/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 28/03/2022 or 60,000 Kms"
+        
+        
+    },
+    {
+        "id":5,
+        "name":"BMW Z4",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/618b9c066b317.jpg&w=1000&h=auto",
+        "description":"Sleek styling, a high-class interior and plenty of performance combine to make this BMW Z4 a highly desirable roadster.This BMW lives up to its brand's long-standing reputation for making supremely capable driving cars. The handling is excellent, the control is engaging and its robust six-cylinder engine deliver a strong performance.Extremely well maintained and treated with the utmost respect, this car is an excellent find and will be sure to bring joy to the next lucky owner!",
+        "model":"2019",
+        "price":"199,900",
+        "ins":"AED 3,915/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 12/03/2024 or 60,000 Kms"
+        
+        
+    },
+    {
+        "id":6,
+        "name":"RANGE ROVER SPORT",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/618d06672b509.jpg&w=1000&h=auto",
+        "description":"The Range Rover Sport is an iconic example of seamless British engineering. The highly advanced engine gives you that extra power and thrust to stay ahead of the traffic whilst being affordable to maintain.With a robust and sturdy design, it's as safe as it is elegant and will be sure to protect you and your family on the hectic Dubai Roads.Finished in an elegant and refined Brown Color with Brown interior, this car will make you stand about above the rest",
+        "model":"2015",
+        "price":" 149,900",
+        "ins":"AED 2,936/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 09/08/2025 or 200,000 Kms"
+        
+        
+    },
+    {
+        "id":7,
+        "name":"LINCOLN MKX AWD",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/6183adf873a72.jpg&w=1000&h=auto",
+        "description":"The MKX is a hand crafted and superbly designed American SUV, it has the road presence that the demanding Dubai roads require, and the luxury that the driver deserves.Its spacious and pragmatic layout combined with its superb all wheel drive capabilities makes it an ideal family car and a perfect machine to handle those curvy and sandy roads that we face daily.Meticulously looked after and maintained, this MKX is in fantastic condition, with red exterior and luxurious beige leather inside, it's sure to turn heads wherever you go.",
+        "model":"2015",
+        "price":"64,900",
+        "ins":"AED 1,271/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 09/08/2025 or 200,000 Kms"
+        
+        
+    },
+    {
+        "id":8,
+        "name":"Range Rover Sport HSE Supercharged 5.0L",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/616d59cdddedd.jpg&w=1000&h=auto",
+        "description":"The Range Rover Sport is an iconic example of seamless British engineering. The highly advanced engine gives you that extra power and thrust to stay ahead of the traffic whilst being affordable to maintain.With a robust and sturdy design, it's as safe as it is elegant and will be sure to protect you and your family on the hectic Dubai Roads.Finished in an elegant and refined White Color with red interior, this car will make you stand about above the rest.",
+        "model":"2016",
+        "price":"179,000",
+        "ins":"AED 3,505/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 09/08/2025 or 200,000 Kms"
+        
+        
+    },
+    {
+        "id":9,
+        "name":"Mercedes Benz A 250",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/618bac96306e0.jpg&w=1000&h=auto",
+        "description":"The Mercedes A250 is in a league of its own of luxury and dynamic hatchbacks. It’s super sleek design and ultra high quality performance make it an unrivalled masterpiece of German precision.Rolling off the production line in 1997, the A Class has steadily improved and excelled itself year after year, the 2018 A250 is as fine a car as is available in today’s market.Coming in a luxury white exterior with super high quality luxury black leather inside, this car will be sure to bring joy to its new lucky keeper.",
+        "model":"2018",
+        "price":"139,900",
+        "ins":"AED 2,740/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 09/08/2025 or 200,000 Kms"
+        
+        
+    },
+    {
+        "id":10,
+        "name":"BMW 540i Luxury Edition",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/618907fd2d3d5.jpg&w=1000&h=auto",
+        "description":"The BMW 540i is one of the most desirable and affluent cars that has ever been built in Germany.The BMW 5 series remains a leader among midsize luxury sedans as a fantastic all round performer. An admirable blend of comfort, craftsmanship and performance, has set this midsize BMW apart from the middle-of-the-road cars in its market segment.This car is finished off beautifully with a grey exterior and luxury dark blue interior which is an excellent find and will be sure to bring joy to the next lucky owner!",
+        "model":"2017",
+        "price":"159,900",
+        "ins":"AED 3,131/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 09/08/2025 or 200,000 Kms"
+        
+        
+    },
+    {
+        "id":11,
+        "name":"Jeep Grand Cherokee Trailhawk",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/6188eeecc2048.jpg&w=1000&h=auto",
+        "description":"The Jeep Grand Cherokee is one of the most recognizable and well built SUV’s in today's market, its robust and meticulously crafted chassis will be sure to handle those hectic Dubai roads.Built and engineered in America, Jeep have displayed a fine balance of quality craftsmanship and outstanding off road capabilities, this Cherokee gets its power from a V6 engine you will be sure to be ahead of the traffic and not behind it!Coming with all the bells and whistles to make life as comfortable as possible, this car is an excellent choice.",
+        "model":"2019",
+        "price":"149,900",
+        "ins":"AED 2,936/Month.0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 09/08/2025 or 200,000 Kms"
+        
+        
+    },
+    {
+        "id":1,
+        "name":"BMW X2 M-Kit",
+        "img":"https://www.albacars.ae/public/timbthumb.php?src=https://www.albacars.ae/public/images/vehicles/61879e73cc31a.jpg&w=1000&h=auto",
+        "description":"The BMW X2 is renowned as being not only one of the most elegant SUV’s available, but the safest as well. Its ultra robust chassis and superb build quality will be sure to keep you and your passengers safe on those hectic Dubai roads.A beautifully crafted German designed engine will give you all the power to stay ahead of the traffic, and the luxury interior will keep you comfortable and relaxed.This car is finished off beautifully with a Bronze exterior and Brown interior, turning heads in every corner of the UAE. This car has been extremely well looked after and would make an ideal car to safely cart your family around Dubai.",
+        "model":"2018",
+        "price":"124,900",
+        "ins":"AED 2,446/Month. 0% Downpayment.Through Bank Finance for 5 Years",
+        "w":"Until 20/06/2023 or 100,000Km"
+        
+        
+    }
+
+]

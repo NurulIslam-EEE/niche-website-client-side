@@ -1,0 +1,15 @@
+.login {
+  width: 300px;
+  height: 80vh;
+  padding: 8% 5px;
+  margin-top: 5%;
+  box-shadow: 0 0 10px -2px;
+}
+.login input,
+.login button {
+  width: 100%;
+}
+.login input {
+  border: 0;
+  border-bottom: 2px solid black;
+}
