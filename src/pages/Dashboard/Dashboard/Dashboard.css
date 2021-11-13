@@ -51,6 +51,9 @@ body {
   background: transparent;
   color: #02092b;
 }
+.review {
+  background: transparent;
+}
 .review input,
 .review textarea,
 .review button {

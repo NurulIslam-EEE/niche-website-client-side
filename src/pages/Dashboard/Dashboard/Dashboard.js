@@ -22,23 +22,26 @@ const Dashboard = () => {
     return (
         <div className='p-0 m-0 row dashboard'>
             <div className='d-flex justify-content-between'>
-                <Link className='p-md-5 dashboard-logo' to='/'><h5 >IMPERIAL CARS</h5></Link>
-                <h5 className='dashboard-logo p-md-5 '><i class="fas fa-user"></i> {user?.displayName}</h5>
-                <h5 className='dashboard-logo p-md-5 '><i class="fas fa-envelope"></i> {user?.email}</h5>
+                <Link className='p-md-5 dashboard-logo ' to='/'><h5 >IMPERIAL CARS</h5></Link>
+                <h5 className='p-md-5 dashboard-logo '><i class="fas fa-user"></i> {user?.displayName}</h5>
+                <h5 className='p-md-5 dashboard-logo'><i class="fas fa-envelope"></i> {user?.email}</h5>
             </div>
 
 
             <div className='col-md-2 dashboard-menu'>
                 <ul>
-                    <li>
-                        <Link to={`${url}/pay`}>Pay</Link>
-                    </li>
-                    <li>
-                        <Link to={`${url}`}>My Orders</Link>
-                    </li>
-                    <li>
+                    {
+                        (user?.email && admin?.role !== 'admin') && <li>
+                            <Link to={`${url}/pay`}>Pay</Link>
+                        </li>
+                    }
+
+                    {(user?.email && admin?.role !== 'admin') && <li>
+                        <Link to={`${url}/myOrder`}>My Orders</Link>
+                    </li>}
+                    {(user?.email && admin?.role !== 'admin') && <li>
                         <Link to={`${url}/review`}>Review</Link>
-                    </li>
+                    </li>}
                     {admin?.role === 'admin' && <li>
                         <Link to={`${url}/addProduct`}>Add Product</Link>
                     </li>}
@@ -59,7 +62,10 @@ const Dashboard = () => {
             </div>
             <div className='col-md-10' style={{ background: 'white' }}>
                 <Switch>
-                    <Route exact path={path}>
+                    <Route exact path={`${path}`}>
+                        <h3 className='my-5 text-center'>Welcome to dashboard </h3>
+                    </Route>
+                    <Route exact path={`${path}/myOrder`}>
                         <MyOrders></MyOrders>
                     </Route>
                     <Route path={`${path}/review`}>

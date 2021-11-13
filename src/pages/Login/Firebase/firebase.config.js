@@ -1,9 +1,10 @@
+console.log(process.env)
 const firebaseConfig = {
-    apiKey: "AIzaSyCy3UNmfB5xz6kRCMFDAxzS8Hfx9IUQmnI",
-    authDomain: "imperial-cars.firebaseapp.com",
-    projectId: "imperial-cars",
-    storageBucket: "imperial-cars.appspot.com",
-    messagingSenderId: "147534801846",
-    appId: "1:147534801846:web:90ff6cf1f055a89e506f17"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID
 };
 export default firebaseConfig;

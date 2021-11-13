@@ -26,8 +26,8 @@ const Review = () => {
     }
     return (
         <div>
-            <h2 className='text-center'>Review</h2>
-            <form className='text-center review' onSubmit={handleSubmit(onSubmit)}>
+            <h2 className='mt-3 text-center'>Review</h2>
+            <form className='mb-3 text-center review' onSubmit={handleSubmit(onSubmit)}>
 
                 <input defaultValue={user?.displayName} type='text' placeholder="name" {...register("name", { required: true })} /><br />
                 {errors.name && <span className='text-danger'>This field is required</span>} <br />

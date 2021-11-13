@@ -19,9 +19,9 @@ const MoreProducts = () => {
             <div className='m-0 row'>
                 <h2 className='text-center'>Available Cars</h2>
                 {
-                    moreProducts?.map(service => <div className="my-4 col-md-4">
+                    moreProducts?.map(service => <div className="p-0 m-0 col-md-4">
 
-                        <Card style={{ width: '90%' }}>
+                        <Card className='m-3' style={{ width: '93%' }}>
                             <Card.Img variant="top" src={service?.image} />
                             <Card.Body>
                                 <Card.Title>{service?.name}</Card.Title>

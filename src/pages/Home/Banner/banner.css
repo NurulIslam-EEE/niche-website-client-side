@@ -7,13 +7,36 @@ body {
 }
 
 .banner {
-  background: url("../../../images/se-image-d329c570ea6f5e77810bc0318eb4b788.webp");
+  background: linear-gradient(#02092b88, #deb62463),
+    url("../../../images/se-image-d329c570ea6f5e77810bc0318eb4b788.webp");
   height: 100vh;
   width: 100%;
   margin: 0;
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
 }
+.banner h1,
+.banner h3 {
+  color: #deb624;
+}
+.banner button {
+  border: 2px solid #deb624;
+  color: #02092b;
+  background: #deb624;
+  border-radius: 24px;
+  padding: 5px 20px;
+  font-weight: 700;
+}
+.banner button:hover {
+  background: transparent;
+  color: #deb624;
+}
+
 .navbar button {
   border-radius: 20px;
   padding: 5px 20px;
@@ -64,4 +87,20 @@ body {
 }
 .navigation-item a:hover {
   color: #deb624;
+}
+.place-order input,
+.place-order textarea {
+  width: 90%;
+}
+.place-order button {
+  border: 2px solid #deb624;
+  background: transparent;
+  color: #deb624;
+  width: 90%;
+  padding: 5px 0;
+}
+.place-order button:hover {
+  border: 2px solid #deb624;
+  background: #deb624;
+  color: #02092b;
 }

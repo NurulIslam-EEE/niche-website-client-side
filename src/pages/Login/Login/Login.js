@@ -35,7 +35,8 @@ const Login = () => {
         <div className='mx-auto d-flex justify-content-center login '>
             <div>
                 {!newUser ? <form onSubmit={handleSubmit(onSubmit)}>
-                    <h3>Please Login</h3>
+                    <h2>Imperial Cars</h2>
+                    <h4>Please Login</h4>
                     <input type='email' placeholder="email" {...register("email", { required: true })} /><br />
                     {errors.email && <span className='text-danger'>This field is required</span>} <br />
                     <input type='password' placeholder="password" {...register("password", { required: true })} /> <br />
@@ -45,7 +46,8 @@ const Login = () => {
                     <p className='text-danger'>{error}</p>
                 </form> :
                     <form onSubmit={handleSubmit(onSubmit)}>
-                        <h3>Please Register</h3>
+                        <h2>Imperial Cars</h2>
+                        <h4>Please Register</h4>
                         <input placeholder="name" {...register("name", { required: true })} /><br />
                         {errors.name && <span className='text-danger'>This field is required</span>} <br />
                         <input type='email' placeholder="email" {...register("email", { required: true })} /><br />

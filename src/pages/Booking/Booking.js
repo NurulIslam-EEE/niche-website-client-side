@@ -42,7 +42,7 @@ const Booking = () => {
     return (
         <div>
             <Navigation></Navigation>
-            <div className='row'>
+            <div className='m-0 row'>
                 <div className="col-md-7">
                     <Card style={{ width: '90%', margin: '5%' }}>
                         <Card.Img variant="top" src={booked?.image} />
@@ -63,14 +63,14 @@ const Booking = () => {
 
                     </Card>
                 </div>
-                <div className="col-md-5">
-                    <form onSubmit={handleSubmit(onSubmit)}>
+                <div className="mt-4 col-md-5">
+                    <form className='place-order' onSubmit={handleSubmit(onSubmit)}>
                         <h3>Please Fill up</h3>
                         <input defaultValue={user?.displayName} type='text' placeholder="name" {...register("name", { required: true })} /><br />
                         {errors.name && <span className='text-danger'>This field is required</span>} <br />
                         <input defaultValue={user?.email} type='email' placeholder="email" {...register("email", { required: true })} /><br />
                         {errors.email && <span className='text-danger'>This field is required</span>} <br />
-                        <input type='text' placeholder="address" {...register("address", { required: true })} /> <br />
+                        <textarea type='text' placeholder="address" {...register("address", { required: true })} /> <br />
                         {errors.address && <span className='text-danger'>This field is required</span>} <br />
                         <input type='text' placeholder="Phone Number" {...register("phone", { required: true })} /> <br />
                         {errors.phone && <span className='text-danger'>This field is required</span>} <br />

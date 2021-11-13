@@ -47,7 +47,7 @@ const ManageOrders = () => {
     return (
         <div>
             <h2 className='my-2 text-center'>Manage orders</h2>
-            <table className="table">
+            <table className="table w-100">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -57,7 +57,7 @@ const ManageOrders = () => {
 
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className='w-100'>
                     {
                         manageOrders?.map((order, index) => <tr key={order?._id}>
                             <th scope="row">{index + 1}</th>

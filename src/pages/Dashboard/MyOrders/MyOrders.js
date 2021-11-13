@@ -37,22 +37,25 @@ const MyOrders = () => {
 
 
         <div className='p-0 m-0 row'>
-            <h2>My order</h2>
-            {
-                myOrder?.map(order => <div key={order?._id} className="col-md-4">
+            <h2 className='my-3 text-center'>My order</h2>
+            {myOrder?.length > 0 ? <>
+                {
+                    myOrder?.map(order => <div key={order?._id} className="col-md-4">
 
-                    <Card style={{ width: '90%' }}>
-                        <Card.Img variant="top" src={order?.image} />
-                        <Card.Body>
-                            <Card.Title>{order?.name}</Card.Title>
-                            <Card.Text>
-                                {order?.status}
-                            </Card.Text>
+                        <Card className='mb-3' style={{ width: '95%' }}>
+                            <Card.Img variant="top" src={order?.image} />
+                            <Card.Body>
+                                <Card.Title>{order?.name}</Card.Title>
+                                <Card.Text>
+                                    {order?.status}
+                                </Card.Text>
 
-                            <button onClick={() => handleOrderCancel(order?._id)}>Cancel</button>
-                        </Card.Body>
-                    </Card>
-                </div >)
+                                <button onClick={() => handleOrderCancel(order?._id)}>Cancel</button>
+                            </Card.Body>
+                        </Card>
+                    </div >)
+                }
+            </> : <h3 className='text-center text-warning'>You didn't place any order</h3>
             }
 
         </div >

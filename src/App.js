@@ -13,6 +13,7 @@ import AuthProvider from './context/AuthProvider';
 import Booking from './pages/Booking/Booking';
 import MoreProducts from './pages/Home/MoreProducts/MoreProducts';
 import RepairAndService from './pages/Home/RepairAndService/RepairAndService';
+import NotFound from './pages/NotFound/NotFound';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
           </Route>
           <Route path="/repairAndService">
             <RepairAndService />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
 
         </Switch>

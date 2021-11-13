@@ -26,9 +26,7 @@ const Navigation = () => {
                         <Nav.Link className='text-white' as={Link} to="/moreProducts">
                             Explore
                         </Nav.Link>
-                        <Nav.Link className='text-white' as={Link} to="/repairAndService">
-                            Repair and service
-                        </Nav.Link>
+
                         <Nav.Link className='text-white' as={Link} to="/home">
                             {user?.displayName}
                         </Nav.Link>
