@@ -15,24 +15,26 @@ const Reviews = () => {
             })
     }, [])
     return (
-        <div className='p-0 m-0 row review'>
-            <h4 className='my-5 text-center'>Customer Review</h4>
+        <div className='p-4 m-0 review-show'>
+            <h4 className='my-2 text-center'>Customer Review</h4>
+            <div className="card-container ">
+                {reviews?.map(review => <div key={review?._id} className="mx-2 mt-5 mb-2">
+                    <div className="review-card">
+                        <div className="text-center">
+                            <img src={review?.picture} className="rounded-circle" alt="..." />
+                        </div>
 
-            {reviews?.map(review => <div key={review?._id} className="my-4 col-md-4 ">
-                <div className="review-card">
-                    <div className="text-center">
-                        <img src={review?.picture} className="rounded-circle" alt="..." />
+                        <p className="text-center">{review?.name}</p>
+                        <p className="text-center">{review?.message}</p>
+                        <div className="text-center">
+                            <RatingView key={review?._id} ratingValue={review?.rating} />
+                        </div>
+
                     </div>
-
-                    <p className="text-center">{review?.name}</p>
-                    <p className="text-center">{review?.message}</p>
-                    <div className="text-center">
-                        <RatingView key={review?._id} ratingValue={review?.rating} />
-                    </div>
-
                 </div>
+                )}
             </div>
-            )}
+
 
 
 

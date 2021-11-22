@@ -1,6 +1,6 @@
 .review-card {
   padding: 10px;
-  width: 90%;
+  width: 300px;
   margin: 0 auto;
   background: white;
 }
@@ -8,6 +8,12 @@
   margin-top: -50px;
   border: 12px solid white;
 }
-.review {
+.review-show {
   background: whitesmoke;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
 }
